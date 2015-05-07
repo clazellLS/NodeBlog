@@ -3,6 +3,7 @@ var fs = require("fs");
 var path = require("path");
 var mime = require("mime");
 
+
 http.createServer(function(request, response) {
   var filePath = false;
   console.log("request", request.url);
