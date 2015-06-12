@@ -3,6 +3,12 @@
   "version" : "0.0.1",
   "description" : "My minimalistic blog",
   "dependencies" : {
-    "mime" : "~1.2.7"
+    "mime" : "~1.2.7",
+    "jquery"  : "1.5.1"
+  },
+  "scripts": {
+    "main": "serverPage.js",
+    "start": "node serverPage.js",
+    "test": "test"
   }
 }

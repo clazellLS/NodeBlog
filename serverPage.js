@@ -1,8 +1,9 @@
+/// <reference path="typings/node/node.d.ts"/>
 var http = require("http");
 var fs = require("fs");
 var path = require("path");
 var mime = require("mime");
-require('bootstrap');
+
 
 http.createServer(function(request, response) {
   var filePath = false;
